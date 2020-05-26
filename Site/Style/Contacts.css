@@ -1,0 +1,363 @@
+body{
+    text-align: center;
+
+    background-image: url(https://psv4.userapi.com/c856216/u357207435/docs/d9/7cdfada3d564/background.jpg?extra=dtP68CFiwVGYBkoO-hwslRxBX1ySVyB64JECWo_vuHv5uxIxm4-iR-PnsSOAieycUICPZyLVVsUoiz7ZhZWYs-ukzlBfRAAVOoNegXTERWiEZ3PC8haMRU-KOC3s7kz6cSEjthhn93Cs4Jh79hLDXxv-);
+    background-position: center center;    
+    background-repeat: no-repeat;    
+    background-attachment: fixed;    
+    background-size: cover;    
+    background-color:#464646;
+}
+.workzone{
+    margin-top: 0%;
+    display: inline-block;
+    width: 68%;
+    height: auto;
+    background-color: rgb(32, 32, 32);
+}
+.header{
+    margin-top: 2%;
+    display: inline-block;
+    width: 92%;
+    height: auto;
+    background-color: transparent;
+}
+.content{
+    margin-top: 1%;
+    display: inline-block;
+    width: 92%;
+    height: auto;
+    background-color: transparent;
+}
+@media screen and (max-width: 2050px) {
+    .workzone{
+        width: 1250px;
+        zoom: 75%;
+    }
+  }
+  .allsevices{
+    margin-top: 1%;
+    display: inline-block;
+    width: 75%;
+    background-color: transparent;
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+    margin: 20px 0px;
+}
+.services {
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    
+}
+a.button1
+{
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+a.button1:nth-child(1)
+{
+    filter: hue-rotate(290deg);
+}
+a.button1:nth-child(3)
+{
+    filter: hue-rotate(110deg);
+}
+a.button1:hover
+{
+    background: white;
+    color: #050801;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 200px white;
+}
+a.button1 span
+{
+    position: absolute;
+    display: block;
+}
+a.button1 span:nth-child(1)
+{
+    top: 0;
+    left:-100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,white);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+    0%
+    {
+        left: -100%;
+    }
+    50%,100%
+    {
+        left: 100%;
+    }
+}
+a.button1 span:nth-child(2)
+{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,white);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2
+{
+    0%
+    {
+        top: -100%;
+    }
+    50%,100%
+    {
+       top: 100%;
+    }
+}
+a.button1 span:nth-child(3)
+{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,white);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+    0%
+    {
+        right: -100%;
+    }
+    50%,100%
+    {
+        right: 100%;
+    }
+}
+a.button1 span:nth-child(4)
+{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,white);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+    0%
+    {
+        bottom: -100%;
+    }
+    50%,100%
+    {
+        bottom: 100%;
+    }
+}
+div.Preview{
+    display: block;
+}
+span.NumberPhone
+{
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    left: 535px;
+    top: 150px;
+}
+a.Adress
+{
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    left: 750px;
+    top: 150px;
+}
+div.top-menu{
+    display: block;
+}
+ul
+{
+    margin: 60px;
+    padding: 0;
+}
+ul li
+{
+    display: inline-flex;
+    list-style: none;
+    margin: 0 25px;
+    transition: 0.5s;
+}
+ul li a
+{
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+ul:hover li a
+{
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+}
+ul li a:hover
+{
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+ul li a:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff497c;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+ul li a:hover:before
+{
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.contacts{
+    margin-top: 0%;
+    display: inline-block;
+    width: 75%;
+    height: auto;
+    background-color: rgb(32, 32, 32);
+}
+.phone{
+    text-align: left;
+    display: flex;
+    padding: 20px 20px;
+    margin: 0px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: auto;
+}
+.mail{
+    text-align: left;
+    display: flex;
+    padding: 20px 20px;
+    margin: 0px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: auto;
+}
+.Соцсети{
+    text-align: left;
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: auto;
+}
+p{
+    
+    display: flex;
+    color: white;
+    padding: 0px 20px;
+    margin: 0px 0;
+    font-size: 12px;
+}
+.vknew{
+    text-align: left;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: auto;
+}
+.instagramnew{
+    text-align: left;
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: auto;
+}
+#map{
+    padding: 40px 40px;
+}
+
